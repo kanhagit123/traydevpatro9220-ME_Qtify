@@ -1,0 +1,52 @@
+/* Add global styles here */
+/* Reset + Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #root {
+    height: 100%;
+    background-color: #121212; /* 🔥 global dark background */
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Scrollbar styling (optional but looks modern) */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #666;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  /* Paragraphs and text */
+  p {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.6;
+  }
+  

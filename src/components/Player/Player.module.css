@@ -1,0 +1,62 @@
+.player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #121212;
+    color: #fff;
+    padding: 12px 20px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .cover {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+    max-width: 60%;
+  }
+  
+  .playBtn {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    background: #1ed760;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .progressWrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .progressBar {
+    flex: 1;
+    height: 6px;
+    background: #333;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #1ed760;
+  }
+  

@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;   /* navbar ki height jitni hi rahe */
+  }
+  
+  .logo img {
+    max-height: 60px;   /* sirf image badi hogi */
+    width: auto;
+    display: block;
+  }
+  

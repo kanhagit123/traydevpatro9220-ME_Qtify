@@ -1,0 +1,43 @@
+.carousel {
+    position: relative;
+    width: 100%;
+  }
+  
+  .swiper {
+    padding: 10px 0 30px 0; /* thoda space niche */
+  }
+  
+  .swiperSlide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navButton {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+  
+  .navButton img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .leftBtn {
+    left: -20px; /* thoda andar */
+  }
+  
+  .rightBtn {
+    right: -20px;
+  }
+  

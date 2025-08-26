@@ -1,0 +1,59 @@
+.section {
+  margin: 40px 0;
+  padding-bottom: 24px;
+  border-bottom: 4px solid #34d058; /* ✅ Green divider under section */
+  margin-bottom: 60px; /* ✅ Extra gap niche green line ke baad */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 6px;
+}
+
+.toggleBtn {
+  background: transparent;
+  border: 1px solid #34d058;
+  color: #34d058;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.tabsWrapper {
+  margin: 16px 0;
+}
+
+.tabsWrapper .MuiTab-root {
+  color: #bbb !important;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.tabsWrapper .MuiTab-root:hover {
+  color: #34d058 !important;
+}
+
+.tabsWrapper .Mui-selected {
+  color: #34d058 !important;
+  font-weight: 600;
+}
+
+.tabsWrapper .MuiTabs-indicator {
+  background-color: #34d058 !important;
+}

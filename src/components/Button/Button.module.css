@@ -1,0 +1,18 @@
+:root {
+    --qtify-green: #34c94b;
+  }
+  
+  .qtifyButton {
+    background-color: black;
+    color: var(--qtify-green);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    padding: 8px 16px;
+    border: 1px solid var(--qtify-green);
+    cursor: pointer;
+  }
+  
+  .qtifyButton:hover {
+    opacity: 0.9;
+  }
+  
