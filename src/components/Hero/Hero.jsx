@@ -1,17 +1,16 @@
-import styles from "./Hero.module.css"; // ✅ ab module css use karenge
+// src/components/Hero/Hero.jsx
+import styles from "./Hero.module.css";
 
 export default function Hero() {
   return (
     <div className={styles.hero}>
-      <div className={styles.heroLeft}>
-        <h1>Experience the Best Music with QTify</h1>
-        <p>
-          Discover top albums, new releases, and trending songs all in one place.
-        </p>
+      <div className={styles.content}>
+        <h1>100 Thousand Songs, ad-free</h1>
+        <p>Over thousands podcast episodes</p>
       </div>
 
-      <div className={styles.heroRight}>
-        {/* direct path from public/ */}
+      <div className={styles.image}>
+        {/* ✅ Headphones image from public folder */}
         <img src="/hero.png" alt="QTify Hero" />
       </div>
     </div>
