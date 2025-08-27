@@ -3,7 +3,7 @@ import Hero from "./components/Hero/Hero.jsx";
 import Section from "./components/Section/Section.jsx";
 import Songs from "./components/Songs/Songs.jsx";
 import Player from "./components/Player/Player.jsx";
-import Faq from "./components/Faq/Faq.jsx";
+import Faq from "./components/Faq/Faq2.jsx";
 import "./index.css";
 
 export default function App() {
